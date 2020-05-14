@@ -1,0 +1,28 @@
+@import url("https://use.typekit.net/obx8smn.css");
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: adelle-sans, sans-serif;
+}
+
+html {
+  background-color: black;
+  height: 100%;  
+  background-image: url(./images/jr-korpa-stwHyPWNtbI-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom; 
+  background-size: cover;
+  backdrop-filter: saturate(80%)
+}
+
+body {
+  padding: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
