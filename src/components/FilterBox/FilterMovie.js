@@ -30,7 +30,7 @@ class FilterMovie extends Component {
   }
 
   filterGenre = (event) => {
-    const genreName = this.state.genres.filter(f => f.id === parseInt(event.target.value))[0].name 
+    const genreName = this.state.genres.filter(f => f.id === parseInt(event.target.value))[0].name
     this.props.handleGenreChange(event.target.value, genreName)
   }
 
@@ -44,7 +44,7 @@ class FilterMovie extends Component {
           onChange={this.filterGenre}
         >
           <option className="option" value="genre">
-          {this.props.genreName}
+            {this.props.genreName}
           </option>
           {
             this.state.genres.map(g =>
