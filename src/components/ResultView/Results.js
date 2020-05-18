@@ -21,7 +21,7 @@ class Results extends Component {
     meals: '',
     movies: '',
     categories: [
-      'cocktail',
+      'drink',
       'movie',
       'recipe'
     ],
